@@ -17,8 +17,10 @@ const Sidebar = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
+  
 
   const handleToggle = () => {
+    console.log("hello");
     const newTheme = theme === "light" ? "dark" : "light";
 
     setTheme(newTheme);
