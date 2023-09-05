@@ -110,10 +110,10 @@ const Sidebar = () => {
 
               {/* //account */}
 
-          <li className="listItem relative py-3 px-4  ">
+          <li className="listItem relative py-3 px-4 hover:bg-blue-500 hover:rounded-md ">
             <a
               href="/"
-              className="menuLink flex items-center text-gray-600 font-medium transition duration-300 text-xl hover:text-blue-300"
+              className="menuLink flex items-center text-gray-600 font-medium transition duration-300 text-xl "
             >
               <CgProfile className="icon mr-3" />
               <span className="smallText">Account</span>
@@ -140,7 +140,7 @@ const Sidebar = () => {
           <li className="listItem relative py-3 px-4 hover:bg-blue-500 hover:rounded-md ">
             <a
               href="/"
-              className="menuLink flex items-center text-gray-600 font-medium transition duration-300 hover:text-gray-50  text-xl"
+              className="menuLink flex items-center text-gray-600 font-medium transition duration-300   text-xl"
             >
               <MdOutlinePrivacyTip className="icon mr-3" />
               <span className="smallText">Privacy and Safety</span>

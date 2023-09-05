@@ -30,5 +30,12 @@
     --smallFontSize: .813rem;
     --SmallestFontSize:.75rem;
   }
+
+  .listItem:hover span{
+    color: white;
+  }
+  .listItem:hover .mr-3{
+    color: white;
+  }
  
   
