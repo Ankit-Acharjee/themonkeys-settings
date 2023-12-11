@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  transform: .3s ease;
+}
+
+:root{
+  --PrimaryColor: hsl(239, 59%, 35%);
+  --HoverColor: #94adf0;
+  --paleBlue: hsl(220, 75%, 89%);
+  --whiteColor: hsl(0,0%,100%);
+  --blackColor: hsl(0,0%,18%);
+  --textColor: hsl(240,1%,48%);
+  --bgColor: hsl(220,10%,94%);
+  --greyText: rgb(190,190,190);
+  --inputColor:hsl(330,12%,97%);
+
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --SmallestFontSize:.75rem;
+}
+html, body {
+  height: 100%;
+}
+
+
+html{
+  font: size 90%;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.icon{
+  font-size: var(--h2FontSize);
+}
+img{
+  width: 200%;
+  height: auto;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.grid{
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+.btn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--inputColor);
+  padding: .8rem 1rem;
+  color: var(--textColor);
+}
+.btn .icon{
+  margin-left: .5rem;
+}
+.btn.hover{
+  background: var(--paleBlue);
+  color: var(--PrimaryColor);
+}
+body{
+  display: flex;
+  
+  
+  
+  margin: auto;
+  
+}
+.container{
+  position: relative;
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bgColor);
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 8px var(--greyText);
+}
